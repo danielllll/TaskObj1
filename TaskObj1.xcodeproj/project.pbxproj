@@ -19,6 +19,8 @@
 		65D746FA1829762F00219FB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D746E21829762E00219FB8 /* UIKit.framework */; };
 		65D747021829762F00219FB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65D747001829762F00219FB8 /* InfoPlist.strings */; };
 		65D747041829762F00219FB8 /* TaskObj1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D747031829762F00219FB8 /* TaskObj1Tests.m */; };
+		65D747101829765600219FB8 /* DGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D7470E1829765600219FB8 /* DGViewController.m */; };
+		65D747111829765600219FB8 /* DGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D7470F1829765600219FB8 /* DGViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		65D746FF1829762F00219FB8 /* TaskObj1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskObj1Tests-Info.plist"; sourceTree = "<group>"; };
 		65D747011829762F00219FB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65D747031829762F00219FB8 /* TaskObj1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskObj1Tests.m; sourceTree = "<group>"; };
+		65D7470D1829765600219FB8 /* DGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGViewController.h; sourceTree = "<group>"; };
+		65D7470E1829765600219FB8 /* DGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGViewController.m; sourceTree = "<group>"; };
+		65D7470F1829765600219FB8 /* DGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				65D746EE1829762E00219FB8 /* AppDelegate.m */,
 				65D746F01829762F00219FB8 /* Images.xcassets */,
 				65D746E51829762E00219FB8 /* Supporting Files */,
+				65D7470D1829765600219FB8 /* DGViewController.h */,
+				65D7470E1829765600219FB8 /* DGViewController.m */,
+				65D7470F1829765600219FB8 /* DGViewController.xib */,
 			);
 			path = TaskObj1;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				65D746E91829762E00219FB8 /* InfoPlist.strings in Resources */,
 				65D746F11829762F00219FB8 /* Images.xcassets in Resources */,
+				65D747111829765600219FB8 /* DGViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D746EF1829762E00219FB8 /* AppDelegate.m in Sources */,
+				65D747101829765600219FB8 /* DGViewController.m in Sources */,
 				65D746EB1829762E00219FB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
